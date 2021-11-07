@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/kotlin-sample
+    username: "kotlin-sample"
+    password: "1qazxsw2"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    baseline-description: Initial
+    # @see org/springframework/boot/autoconfigure/flyway/FlywayProperties.java
+    # locations: "classpath:db/migration"
