@@ -1,1 +1,1 @@
-rootProject.name = "spring-kotlin"
+rootProject.name = "spring-kotlin-with-mybatis"

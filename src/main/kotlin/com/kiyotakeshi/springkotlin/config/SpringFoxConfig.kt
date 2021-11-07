@@ -26,7 +26,7 @@ class SpringFoxConfig {
 
     fun metaData(): ApiInfo? {
         return ApiInfoBuilder()
-            .title("spring-kotlin-mybatis")
+            .title("spring-kotlin-with-mybatis")
             .description("Spring Boot REST API using kotlin and mybatis")
             .version("0.0.1")
             .contact(Contact("kiyotakeshi", "https://github.com/kiyotakeshi", "kiyotatakeshi.work@gmail.com"))
