@@ -28,6 +28,7 @@ dependencies {
 	implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0")
 	implementation("org.mybatis.dynamic-sql:mybatis-dynamic-sql:1.2.1")
 	mybatisGenerator("org.mybatis.generator:mybatis-generator-core:1.4.0")
+	implementation("io.springfox:springfox-boot-starter:3.0.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 

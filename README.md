@@ -17,3 +17,6 @@ INSERT INTO `kotlin-sample`.user (id, name, age, profile) VALUES (1, 'mike', 22,
 
 select * from user;
 ```
+
+- [access swagger-ui](http://localhost:8080/swagger-ui/index.html)
+  - @ref https://github.com/springfox/springfox/issues/3345#issuecomment-650546603 
