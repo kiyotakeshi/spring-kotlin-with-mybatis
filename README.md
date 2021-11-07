@@ -1,21 +1,7 @@
-```sql
-USE `kotlin-sample`;
+- run mysql container
 
-CREATE TABLE user
-(
-id      int(10)     NOT NULL,
-name    varchar(16) NOT NULL,
-age     int(10)     NOT NULL,
-profile varchar(64) NOT NULL,
-primary key (id)
-) ENGINE = InnoDB
-DEFAULT CHARSET = utf8;
-
-show tables;
-
-INSERT INTO `kotlin-sample`.user (id, name, age, profile) VALUES (1, 'mike', 22, 'hello');
-
-select * from user;
+```shell
+docker compose up -d
 ```
 
 - [access swagger-ui](http://localhost:8080/swagger-ui/index.html)
